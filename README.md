@@ -6,7 +6,7 @@ This homework explores two problems in the Circular Restricted Three-Body Proble
 
 ---
 
-## 📁 Files
+## Files
 
 ```
 ├── aerohw4.nb      # Problem 1: 3:4 resonant orbit — ECI setup, ECI→CR3BP transform, differential correction
@@ -80,11 +80,11 @@ The free variable is $\dot{y}(0)$ and the correction targets the half-period sym
 
 **Result — Corrected 3:4 Resonant Orbit:**
 
-![Corrected resonant orbit](hw4_figs/fig4_corrected_resonant.png)
+![Corrected resonant orbit](fig4_corrected_resonant.png)
 
 *Full view with Earth (gray dot at origin) and Moon:*
 
-![Corrected resonant orbit full view](hw4_figs/fig5_corrected_full.png)
+![Corrected resonant orbit full view](fig5_corrected_full.png)
 
 The corrected orbit is genuinely periodic in the CR3BP rotating frame, completing 3 loops for every 4 Moon revolutions.
 
@@ -106,7 +106,7 @@ $$\bar{x}_0 = [0.839031,\; 0,\; 0,\; 0,\; -0.0177086,\; 0]$$
 
 The linearized trajectory in the x–y plane (center subspace activated):
 
-![Lyapunov linear guess](hw4_figs/fig7_lyapunov_linear.png)
+![Lyapunov linear guess](fig7_lyapunov_linear.png)
 
 ### (b) Differential Correction
 
@@ -116,7 +116,7 @@ $$y(0) = 0, \quad \dot{x}(0) = 0$$
 
 with $\dot{y}(0)$ as the free variable and the half-period condition $\dot{x}(T/2) = 0$ as the target. After convergence, the nonlinear corrected orbit:
 
-![Lyapunov corrected orbit](hw4_figs/fig8_lyapunov_corrected.png)
+![Lyapunov corrected orbit](fig8_lyapunov_corrected.png)
 
 *(Note: axes show x ∈ [0.836, 0.839] DU, y ∈ [−0.006, 0.006] DU — origin is at L1, not (0,0))*
 
@@ -124,13 +124,13 @@ with $\dot{y}(0)$ as the free variable and the half-period condition $\dot{x}(T/
 
 Starting from the smallest corrected Lyapunov orbit, a natural parameter continuation steps $x_0$ outward in small increments, applying differential correction at each step to maintain periodicity. This traces the full **family of Lyapunov orbits around L1**:
 
-![Family of Lyapunov orbits](hw4_figs/fig9_lyapunov_family.png)
+![Family of Lyapunov orbits](fig9_lyapunov_family.png)
 
 The family grows from a tiny near-circular orbit tightly around L1 (x ≈ 0.836–0.840 DU) outward to large orbits spanning x ∈ [0.80, 0.95] DU and y ∈ [−0.23, 0.23] DU, eventually distorting asymmetrically as the Moon's nonlinear gravity becomes dominant.
 
 ---
 
-## 🛠 Methods Summary
+##  Methods Summary
 
 | | Problem 1 (Resonant Orbit) | Problem 2 (Lyapunov Family) |
 |---|---|---|
@@ -142,7 +142,7 @@ The family grows from a tiny near-circular orbit tightly around L1 (x ≈ 0.836�
 
 ---
 
-## 📐 Normalized Units
+## Normalized Units
 
 | Quantity | Value |
 |---|---|
