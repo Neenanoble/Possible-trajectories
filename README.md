@@ -1,4 +1,4 @@
-# 🌙 AERSP 550 — HW4: Resonant Orbits & Lyapunov Orbit Families in the CR3BP
+# AERSP 550 — HW4: Resonant Orbits & Lyapunov Orbit Families in the CR3BP
 
 **Neena Noble | AERSP 550**
 
@@ -66,7 +66,7 @@ $$\ddot{x} - 2\dot{y} = \frac{\partial U^*}{\partial x}, \quad \ddot{y} + 2\dot{
 
 **Observation:** the trajectory is no longer closed. This is expected — the two-body resonance does not map directly to a periodic orbit in the three-body problem because of the Moon's gravitational perturbation.
 
-![CR3BP uncorrected](hw4_figs/fig3_cr3bp_uncorrected.png)
+![CR3BP uncorrected](fig3_cr3bp_uncorrected.png)
 
 *Gray dot at origin = Earth; other dot = Moon (at x = 1 − μ in normalized units)*
 
